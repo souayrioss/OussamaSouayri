@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .bg-homeBg{
+        background-image: url(assets/img/bg-light.jpg);
+    }
+  }
